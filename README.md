@@ -2,7 +2,7 @@
 
 A simple, lightweight jQuery plugin for creating a notification bar that is dismissable and dismiss is saved by cookie. Perfect for implementing the new eu cookielaw! - example available on [gh-pages](http://carlwoodhouse.github.com/jquery.cookieBar)
 
-##### If you like jquery.cookieBar and use it commercially please consider giving a [donation](https://paypal.me/carlwoodhouse). Thankyou.
+##### If you like jquery.cookieBar and use it commercially please consider giving a [donation](https://paypal.me/carlwoodhouse). Thank you.
 
 ## Installation
 
@@ -16,7 +16,7 @@ If you want the default styles also include the css, if not feel free to style i
 
 ## Usage
 
-Create a cookiebar with no markup whatsoever! it's like magic ...
+Create a cookiebar with no markup whatsoever! It's like magic...
 
 	<script type="text/javascript">
 		$(document).ready(function() {
@@ -24,7 +24,7 @@ Create a cookiebar with no markup whatsoever! it's like magic ...
 		});
 	</script>
 
-Or, create your cookiebar markup from a simple container, example:
+Or create your cookiebar markup from a simple container, for example:
 
 	<script type="text/javascript">
 		$(document).ready(function() {
@@ -36,7 +36,7 @@ Or, create your cookiebar markup from a simple container, example:
 		The government says i have to tell you i use cookies, so here it is
     </div>
 	
-Or, create your cookiebar markup from a simple container with an advanced button, example:
+Or create your cookiebar markup from a simple container with an advanced button, for example:
 
 	<script type="text/javascript">
 		$(document).ready(function() {
@@ -48,7 +48,7 @@ Or, create your cookiebar markup from a simple container with an advanced button
 		The government says i have to tell you i use cookies, so here it is <a class="my-close-button" href>cheers!</a>
 	</div>
 
-Or, create your cookiebar markup from a simple container with a super advanced button that does something custom on close instead of just hiding, example:
+Or create your cookiebar markup from a simple container with a super advanced button that does something custom on close instead of just hiding, for example:
 
 	<script type="text/javascript">
 		$(document).ready(function() {
@@ -74,7 +74,7 @@ Full Example
 **hideOnClose** - Hide the cookiebar when the close button is clicked
 
     hideOnClose: false
-*Use-case: you might want some different behaviour on close, eg. a slide animiation. an event will be triggered on close.
+*Use-case: you might want some different behaviour on close, eg. a slide animation. An event will be triggered on close.
 *Default: the cookiebar will be hidden on close*
 
 **secure** - Define if the cookie transmission requires secure protocal (https)
